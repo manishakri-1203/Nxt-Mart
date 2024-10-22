@@ -1,0 +1,127 @@
+.login-form-container {
+  background-image: url('https://res.cloudinary.com/demx1ym4x/image/upload/v1720351548/Background_1_e27ysr.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    background-image: url('https://res.cloudinary.com/demx1ym4x/image/upload/v1720161275/Background_kf5zw8.png');
+    background-size: cover;
+  }
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 360px;
+  padding: 20px;
+  border-radius: 8px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form {
+    width: 360px;
+    flex-shrink: 0;
+    padding: 48px;
+  }
+}
+
+.login-website-logo {
+  width: 119px;
+  height: 85px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-label {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 6px;
+}
+
+.icon-and-input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #64748b;
+  padding: 8px 8px 8px 12px;
+  border-radius: 8px;
+  height: 40px;
+  width: 100%;
+}
+
+.input-field {
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-left: 6px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.check-box {
+  height: 16px;
+  width: 16px;
+  margin-right: 6px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #333333;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.login-btn {
+  background-color: #b3b3b3;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  margin-top: 16px;
+  margin-bottom: 2px;
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.active-login-btn {
+  background-color: #088c03;
+}
+
+.error-msg{
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  line-height: 16px;
+  color: #ff0b37;
+}

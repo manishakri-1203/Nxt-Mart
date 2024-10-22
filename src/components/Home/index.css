@@ -1,0 +1,54 @@
+.loader-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.failure-img {
+  width: 345px;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #191919;
+  line-height: 32px;
+}
+
+.failure-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 24px;
+  color: #191919cc;
+  margin-top: 0;
+}
+
+.retry-button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #088c03;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+
+.category-product-items {
+  display: flex;
+  align-items: center;
+  overflow-y: scroll;
+  width: 100%;
+  padding: 10px;
+}
